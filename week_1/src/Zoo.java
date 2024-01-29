@@ -22,8 +22,8 @@ public class Zoo {
     }
 
     public void runAnimals (int rounds){
-        for (int i=0; i<rounds; i++){
-            for(Animal animal : animals){
+      for(Animal animal : animals){
+        for (int i = 0; i < rounds; i++){
                 animal.run();
             }
         }
