@@ -10,7 +10,7 @@ public class App {
         while (true) {
             System.out.println("1) Luo uusi eläin, 2) Listaa kaikki eläimet, 3) Juoksuta eläimiä, 0) Lopeta ohjelma");
             int choice = scanner.nextInt();
-            scanner.nextLine(); 
+            
 
             if (choice == 1) {
                 System.out.println("Mikä laji?");
@@ -19,7 +19,7 @@ public class App {
                 String name = scanner.nextLine();
                 System.out.println("Anna eläimen ikä:");
                 int age = scanner.nextInt();
-                scanner.nextLine(); 
+                
 
                 Animal animal = new Animal(species, name, age);
                 zoo.addanimal (animal);
@@ -29,7 +29,7 @@ public class App {
                 System.out.println("Kuinka monta kierrosta?");
                 int rounds = scanner.nextInt();
                 zoo.runAnimals(rounds);
-                scanner.nextLine(); 
+                
             } else if (choice == 0) {
                 System.out.println("Kiitos ohjelman käytöstä.");
                 break;
