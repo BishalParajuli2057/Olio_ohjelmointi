@@ -14,7 +14,7 @@ public class Animal {
     }
 
     public void run(){
-        System.out.println(name+" 0jouksee kovaa vauhtia!");
+        System.out.println(name+" jouksee kovaa vauhtia!");
     }
 }
 
