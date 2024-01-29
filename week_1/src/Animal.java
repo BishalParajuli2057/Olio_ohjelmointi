@@ -1,5 +1,3 @@
-package week_3;
-
 public class Animal {
     String species;
     String name;
@@ -16,7 +14,7 @@ public class Animal {
     }
 
     public void run(){
-        System.out.println(name+"jouksee kovaa vauhtia!");
+        System.out.println(name+" 0jouksee kovaa vauhtia!");
     }
-    
 }
+
