@@ -10,6 +10,7 @@ public class App {
         while (true) {
             System.out.println("1) Luo uusi eläin, 2) Listaa kaikki eläimet, 3) Juoksuta eläimiä, 0) Lopeta ohjelma");
             int choice = scanner.nextInt();
+            scanner.nextLine(); 
             
 
             if (choice == 1) {
